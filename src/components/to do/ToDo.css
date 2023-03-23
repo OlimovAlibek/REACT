@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    color: rgb(42, 187, 236);
+}
+
+.all {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    border: 8px solid rgb(42, 187, 236);
+}
+
+.add {
+    width: 100px;
+    background-color: rgb(42, 187, 236);
+    height: 60px;
+    border: none;
+    border: 1px solid white;
+
+}
+
+.add:hover {
+    background-color: white;
+    border: 5px solid rgb(42, 187, 236);
+}
+
+
+.line {
+    background-color: rgb(42, 187, 236);
+    margin: 10px;
+    height: 30px;
+}
+
+.deletebtn {
+    float: right;
+    background-color: rgb(42, 187, 236);
+    border: 1px solid white;
+    
+}
+
+.deletebtn:hover {
+    background-color: white;
+    border: 1px solid rgb(42, 187, 236);
+}
