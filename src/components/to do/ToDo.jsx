@@ -19,7 +19,6 @@ const ToDo = () => {
 
     const handleChangeEvent = (event) => {
         setNewTOdo(event.target.value);
-        console.log(event.target.value);
     }
 
     const handleChangeSubmit = (event) => {
