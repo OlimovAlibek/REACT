@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MyProvider } from './components/lesson-54/ContextExample';
+import { CountryProvider } from './components/lesson-54/fetchContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <MyProvider>
+  <CountryProvider>
+  <App />
+  </CountryProvider>
+  </MyProvider>
+    
   </React.StrictMode>
 );
 
